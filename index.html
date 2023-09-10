@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html data-theme="dark">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>readyOS</title>
+    <link rel="stylesheet" href="css/pico.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" integrity="sha512-HXXR0l2yMwHDrDyxJbrMD9eLvPe3z3qL3PPeozNTsiHJEENxx8DH2CxmV05iwG0dwoz5n4gQZQyYLUNt1Wdgfg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+  <body>
+    <nav>
+        <ul>
+          <li><a id="naviconleft" href="https://github.com/spydea/readyOS" class="secondary"><i class="fa-brands fa-github"></i></a></li>
+        </ul>
+        <ul>
+          <a href="https://ready-os.github.io/"><li id="baslik"><strong>ReadyOS</strong></li></a> 
+        </ul>
+        <ul>
+          <li><a id="naviconright" href="https://discord.com/invite/bbQ8vaKAVv" class="secondary"><i class="fa-brands fa-discord"></i></a></li>
+        </ul>
+      </nav>
+      <div  class="container">
+        <h3 id="sayfaYazi">readyOS Windows 10'un düzenlenmiş, oyun performansını olumsuz etkileyen tüm bileşenlerin kaldırılmış bir halidir. readyOS, performansa odaklanırken ayrıca; sistem gecikmesi, ağ gecikmesi, giriş gecikmesi (input lag) ve sistem güvenliği için de iyi bir seçenektir. </h3>
+        <button id="indirBtn">İNDİR</button>
+        <script>
+          document.getElementById("indirBtn").addEventListener("click", function() {
+              window.location.href = "https://drive.google.com/file/d/1zUJuQSIZRcgQ1mazeiv5Mtq5VBbIowsE/view?usp=drivesdk";
+          });
+          </script>
+      </div>
+      <div class="container">
+        <a class="card1" href="#">
+          <h3><i class="ri-code-line"></i> Açık Kaynak</h3>
+          <p class="small">Açık kaynağı seviyoruz ve Github'dan istediğiniz gibi inceleyip, kendi versiyonunu yapabilir ve herkese açık şekilde yayınlayabilirsiniz.</p>
+          <div class="go-corner" href="#">
+            <div class="go-arrow">
+              →
+            </div>
+          </div>
+        </a>
+        
+        <a class="card1" href="#">
+          <h3><i class="ri-cpu-line"></i> Daha az kaynak tüketimi</h3>
+          <p class="small">Gereksiz hizmetleri sistemimizden çıkartarak, kullanıcılarımızın daha az kaynak tüketimiyle daha verimli bir deneyim yaşamalarını sağlıyoruz. Bu sayede performans artışı elde ediyoruz.</p>
+          <div class="go-corner" href="#">
+            <div class="go-arrow">
+              →
+            </div>
+          </div>
+        </a>
+        
+        <a class="card1" href="#">
+          <h3><i class="ri-lock-password-line"></i> Daha gizlilik odaklı</h3>
+          <p class="small">Stok Windows sizin bilgilerinizi toplayan ve Microsoft'a gönderen servisler içerir. readyOS Windows'a gömülü bir şekilde gelen bilgi toplama servislerinin hepsini kaldırır ve grup ilkeleri ile bilgi toplamayı en aza çekmeyi amaçlar.</p>
+          <div class="dimmer"></div>
+          <div class="go-corner" href="#">
+            <div class="go-arrow">
+              →
+            </div>
+          </div>
+        </a>
+          
+          <a class="card1" href="#">
+            <h3><i class="ri-hard-drive-line"></i> Daha fazla alan</h3>
+            <p class="small">Hazır gelen uygulamalar ve diğer önemsiz bileşenler readyOS'da kaldırıldı. İndirdiğiniz boyutu önemli ölçüde düşürüyor ve sisteminizi daha akıcı yapıyor. </p>
+            <div class="dimmer"></div>
+            <div class="go-corner" href="#">
+              <div class="go-arrow">
+                →
+              </div>
+            </div>
+          </a>
+            </div>
+          </div>
+        </a>
+      </div>
+  </body>
+  <footer><a id="footerText" class="secondary">© Copyright 2023 | readyOS | Designed by ShadesOfDeath</a></footer>
+</html>
